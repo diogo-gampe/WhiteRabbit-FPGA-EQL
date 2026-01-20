@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_top_system_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="gencores_pkg" />
+            <top_module name="genram_pkg" />
+            <top_module name="glbl" />
+            <top_module name="tb_top_system" />
+            <top_module name="urv_pkg" />
+            <top_module name="wishbone_pkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="76,059.541 ns"></ZoomStartTime>
+      <ZoomEndTime time="76,071.492 ns"></ZoomEndTime>
+      <Cursor1Time time="76,069.500 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="233"></NameColumnWidth>
+      <ValueColumnWidth column_width="108"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wvobject fp_name="/tb_top_system/clk_p" type="logic">
+      <obj_property name="ElementShortName">clk_p</obj_property>
+      <obj_property name="ObjectShortName">clk_p</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_system/clk_n" type="logic">
+      <obj_property name="ElementShortName">clk_n</obj_property>
+      <obj_property name="ObjectShortName">clk_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_system/leds" type="array">
+      <obj_property name="ElementShortName">leds[1:0]</obj_property>
+      <obj_property name="ObjectShortName">leds[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_system/UUT/locked" type="logic">
+      <obj_property name="ElementShortName">locked</obj_property>
+      <obj_property name="ObjectShortName">locked</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_system/UUT/led1_reg" type="logic">
+      <obj_property name="ElementShortName">led1_reg</obj_property>
+      <obj_property name="ObjectShortName">led1_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_system/UUT/test_reg" type="array">
+      <obj_property name="ElementShortName">test_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">test_reg[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_system/UUT/cpu_dwb_out" type="array">
+      <obj_property name="ElementShortName">cpu_dwb_out</obj_property>
+      <obj_property name="ObjectShortName">cpu_dwb_out</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_system/UUT/cpu_dwb_in" type="array">
+      <obj_property name="ElementShortName">cpu_dwb_in</obj_property>
+      <obj_property name="ObjectShortName">cpu_dwb_in</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+</wave_config>
